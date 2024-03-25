@@ -24,7 +24,7 @@ anyhow = "1"
 pretty_assertions = "1"
 test-log = { version = "0.2", features = ["log", "trace"] }
 tracing = { version = "0.1", features = ["log", "attributes"] }
-tracing-subscriber = { version = "*", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
 [features]
 default = []
